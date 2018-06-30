@@ -1,11 +1,12 @@
 {
     "database": {
-        "client": "mysql",
-        "connection": {
-            "host"     : "127.0.0.1",
-            "user"     : "root",
-            "password" : "",
-            "database" : "ghost"
+        "client": " ",
+        "database": {
+            "client": "sqlite3",
+            "connection": {
+                "filename": "content/data/ghost-dev.db"
+            },
+            "debug": false
         }
     },
     "paths": {
